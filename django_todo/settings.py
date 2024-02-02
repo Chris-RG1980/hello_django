@@ -27,9 +27,9 @@ if os.path.isfile("env.py"):
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hello-django-chris-4a770da10fde.herokuapp.com']
 
 
 # Application definition
